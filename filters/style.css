@@ -1,0 +1,53 @@
+#img{
+    width: 300px;
+    height: 200px;
+}
+.imageEditor{
+    width: 482px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #4b4b4b;
+    -moz-border-radius:8px;
+    -webkit-border-radius:8px;
+    border-radius:8px;
+    background-color:#ababab;
+}
+
+.imageEditor_Container{
+    display: block;
+    width: 480px;
+    height: 480px;
+}
+
+.imageEditor_Container__canvas{
+    display: block;
+    width: 450px;
+    height: 300px;
+    margin: 0px 20px 20px 0px;
+    border:1px solid #4b4b4b;
+}
+
+.imageEditor_toolbar{
+    display: block;
+    margin: 20px 0px 0px;
+}
+
+.imageEditor_toolbar__a{
+    margin-right: 15px;
+    font-weight: revert;
+    outline: none;
+    color:#4b4b4b;
+    font-family: monospace;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.imageEditor_toolbar__a:hover{
+    color: lavender;
+}
+
+h1{
+    float: left;
+    color: darkgray;
+    font-family: monospace;
+}

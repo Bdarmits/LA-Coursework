@@ -1,0 +1,38 @@
+.Main_part{
+    width: 650px;
+    margin: auto;
+    padding-left: 40px;
+    padding-top: 20px;
+    border: 1px solid #4b4b4b;
+    -moz-border-radius:8px;
+    -webkit-border-radius:8px;
+    border-radius:8px;
+    background-color:#ababab;
+}
+
+
+.button {
+    position: absolute;
+    top: 65px;
+    left: 20px;
+    width: 100px;
+    height: 38px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 20px;
+    line-height: 38px;
+    text-align: center;
+    transition: all 0.4s;
+}
+
+.button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+h1{
+    float: left;
+    color: darkgray;
+    font-family: monospace;
+}

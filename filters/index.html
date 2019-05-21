@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Image Processing</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Image Filtering</h1>
+    <div class="imageEditor">
+        <img src="16.jpg" id="img" style="width: 450px; height: 300px">
+        <section class="imageEditor_Container">
+            <canvas class="imageEditor_Container__canvas" id = "Canvas"></canvas>
+            <script type="text/javascript" src="script.js"></script>
+        </section>
+        <section class="imageEditor_toolbar">
+            <a class="imageEditor_toolbar__a imageEditor_toolbar__a-sepia" href="#" title="Sepia" onclick="DoSepia()">Sepia</a>
+            <a class="imageEditor_toolbar__a imageEditor_toolbar__a-greyscale" href="#" title="Greyscale" onclick="DoGreyScale()">Greyscale</a>
+            <a class="imageEditor_toolbar__a imageEditor_toolbar__a-negative" href="#" title="Negative" onclick="DoNegative()">Negative</a>
+            <a class="imageEditor_toolbar__a imageEditor_toolbar__a-brightness" href="#" title="Brightness" onclick="DoBrightness()">Brightness</a>
+            <a class="imageEditor_toolbar__a imageEditor_toolbar__a-threshold" href="#" title="Threshold" onclick="DoThreshold()">Threshold</a>
+            <a class="imageEditor_toolbar__a imageEditor_toolbar__a-gradient" href="#" title="Gradient" onclick="DoGradient()">Gradient</a>
+            <a class="imageEditor_toolbar__a imageEditor_toolbar__a-mirror" href="#" title="Mirror" onclick="DoMirror()">Mirror</a>
+            <a class="imageEditor_toolbar__a imageEditor_toolbar__a-saturation" href="#" title="Saturation" onclick="DoSaturation()">Saturation</a>
+            <a class="imageEditor_toolbar__a imageEditor_toolbar__a-gaussian1" href="#" title="Gaussian1" onclick="DoGaussian1()">Gaussian1</a>
+            <a class="imageEditor_toolbar__a imageEditor_toolbar__a-gaussian2" href="#" title="Gaussian2" onclick="DoGaussian2()">Gaussian2</a>
+            <a class="imageEditor_toolbar__a imageEditor_toolbar__a-sharpen" href="#" title="Sharpen" onclick="DoSharpen()">Sharpen</a>
+            <a class="imageEditor_toolbar__a imageEditor_toolbar__a-laplacian" href="#" title="Laplacian" onclick="DoLaplacian()">Laplacian</a>
+            <a class="imageEditor_toolbar__a imageEditor_toolbar__a-prewittHorizontal" href="#" title="PrewittHorizontal" onclick="DoPrewittHorizontal()">PrewittHorizontal</a>
+            <a class="imageEditor_toolbar__a imageEditor_toolbar__a-prewittVertical" href="#" title="PrewittVertical" onclick="DoPrewittVertical()">PrewittVertical</a>
+            <a class="imageEditor_toolbar__a imageEditor_toolbar__a-highpass" href="#" title="Highpass" onclick="DoHighpass()">Highpass</a>
+            <a class="imageEditor_toolbar__a imageEditor_toolbar__a-red" href="#" title="Red" onclick="DoRed()">Red</a>
+            <a class="imageEditor_toolbar__a imageEditor_toolbar__a-green" href="#" title="Green" onclick="DoGreen()">Green</a>
+            <a class="imageEditor_toolbar__a imageEditor_toolbar__a-blue" href="#" title="Blue" onclick="DoBlue()">Blue</a>
+            <!--<a class="imageEditor_toolbar__a imageEditor_toolbar__a-mosaic" href="#" title="Mosaic" onclick="DoMosaic()">Mosaic</a>-->
+            <a class="imageEditor_toolbar__a imageEditor_toolbar__a-contours" href="../Contours/index.html" title="Contours">Contours</a>
+        </section>
+    </div>
+</body>
+</html>
